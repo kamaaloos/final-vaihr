@@ -1,0 +1,84 @@
+# SQL files
+*.sql
+**/*.sql
+
+# Scripts and utilities
+scripts/
+**/scripts/
+
+# Supabase configuration and migrations
+supabase/
+**/supabase/
+
+# Functions (Supabase edge functions)
+functions/
+**/functions/
+
+# Test files and mocks
+mocks/
+**/mocks/
+coverage/
+**/coverage/
+*.test.ts
+*.test.tsx
+*.test.js
+*.test.jsx
+*.spec.ts
+*.spec.tsx
+*.spec.js
+*.spec.jsx
+__tests__/
+**/__tests__/
+
+# Documentation
+*.md
+!README.md
+
+# Debug and log files
+*.log
+*.debug
+debug*.sql
+test*.sql
+check*.sql
+fix*.sql
+create*.sql
+restore*.sql
+migrate*.sql
+run*.sql
+simple*.sql
+quick*.sql
+emergency*.sql
+diagnose*.sql
+verify*.sql
+force*.sql
+recreate*.sql
+remove*.sql
+disable*.sql
+enable*.sql
+clean*.sql
+complete*.sql
+setup*.sql
+
+# Backup files
+backup.json
+*.backup
+*.bak
+
+# Configuration files that shouldn't be bundled
+firebase.json
+jest.setup.js
+test-*.js
+check-*.js
+convertSvg.js
+
+# Development files
+.editorconfig
+.eslintrc*
+.prettierrc*
+tsconfig.json
+
+# Environment files (already in .gitignore but ensure they're excluded)
+.env
+.env.*
+!.env.example
+
