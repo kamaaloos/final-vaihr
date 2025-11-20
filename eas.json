@@ -1,11 +1,10 @@
 {
   "cli": {
-    "version": ">= 10.2.0",
+    "version": ">= 16.27.0",
     "appVersionSource": "remote"
   },
   "build": {
     "development": {
-      "node": "20.19.4",
       "developmentClient": true,
       "distribution": "internal"
     },
@@ -13,7 +12,6 @@
       "distribution": "internal"
     },
     "production": {
-      "node": "20.19.4",
       "autoIncrement": true
     }
   },

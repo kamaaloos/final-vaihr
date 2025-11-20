@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Vaihtoratti",
-    "slug": "vaihtoratti",
+    "name": "Final Vaihr",
+    "slug": "final-vaihr",
     "version": "1.0.0",
     "description": "Vaihtoratti is a job application tracker for Finnish drivers, job seekers.",
     "orientation": "portrait",
@@ -47,9 +47,6 @@
       ]
     ],
     "extra": {
-      "eas": {
-        "projectId": "f3360809-2bdc-4cdd-b766-913ec1c1deb4"
-      },
       "maxListeners": 20
     },
     "newArchEnabled": true
